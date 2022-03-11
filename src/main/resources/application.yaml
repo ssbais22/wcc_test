@@ -1,0 +1,14 @@
+server:
+  port: 7001
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL81Dialect
+logging:
+    level:
+       root: INFO
+
